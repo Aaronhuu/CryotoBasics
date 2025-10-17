@@ -2,6 +2,11 @@
 
 A React Native application built with Expo that provides cryptocurrency and fiat currency management with a local Express.js API server.
 
+DEMO:
+
+https://github.com/user-attachments/assets/041e774e-a22b-4cf3-acfc-f19741cca446
+
+
 ## 🚀 Features
 
 - **5 Interactive Buttons**: Clear database, insert data, view crypto list, view fiat list, and view purchasable currencies
