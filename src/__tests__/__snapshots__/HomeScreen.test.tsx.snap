@@ -1,0 +1,386 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomeScreen UI should render without crashing 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "#f5f5f5",
+      "flexBasis": 0,
+      "flexGrow": 1,
+      "flexShrink": 1,
+      "justifyContent": "center",
+      "paddingBottom": 20,
+      "paddingLeft": 20,
+      "paddingRight": 20,
+      "paddingTop": 20,
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 28,
+        "fontWeight": "bold",
+        "marginBottom": 10,
+        "textAlign": "center",
+      }
+    }
+  >
+    Crypto Basics Demo
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#666",
+        "fontSize": 16,
+        "marginBottom": 30,
+        "textAlign": "center",
+      }
+    }
+  >
+    Database: 0 records | Server: checking
+  </Text>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "gap": 12,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#f44336",
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "elevation": 5,
+          "opacity": 1,
+          "paddingBottom": 15,
+          "paddingLeft": 30,
+          "paddingRight": 30,
+          "paddingTop": 15,
+          "shadowColor": "#000",
+          "shadowOffset": {
+            "height": 2,
+            "width": 0,
+          },
+          "shadowOpacity": 0.25,
+          "shadowRadius": 3.84,
+          "width": 250,
+        }
+      }
+      testID="clear-database-button"
+    >
+      <Text
+        style={
+          {
+            "color": "white",
+            "fontSize": 16,
+            "fontWeight": "600",
+          }
+        }
+      >
+        Clear Database
+      </Text>
+    </View>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#4caf50",
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "elevation": 5,
+          "opacity": 1,
+          "paddingBottom": 15,
+          "paddingLeft": 30,
+          "paddingRight": 30,
+          "paddingTop": 15,
+          "shadowColor": "#000",
+          "shadowOffset": {
+            "height": 2,
+            "width": 0,
+          },
+          "shadowOpacity": 0.25,
+          "shadowRadius": 3.84,
+          "width": 250,
+        }
+      }
+      testID="insert-data-button"
+    >
+      <Text
+        style={
+          {
+            "color": "white",
+            "fontSize": 16,
+            "fontWeight": "600",
+          }
+        }
+      >
+        Insert Data
+      </Text>
+    </View>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#2196f3",
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "elevation": 5,
+          "opacity": 1,
+          "paddingBottom": 15,
+          "paddingLeft": 30,
+          "paddingRight": 30,
+          "paddingTop": 15,
+          "shadowColor": "#000",
+          "shadowOffset": {
+            "height": 2,
+            "width": 0,
+          },
+          "shadowOpacity": 0.25,
+          "shadowRadius": 3.84,
+          "width": 250,
+        }
+      }
+      testID="show-crypto-list-button"
+    >
+      <Text
+        style={
+          {
+            "color": "white",
+            "fontSize": 16,
+            "fontWeight": "600",
+          }
+        }
+      >
+        Show Crypto List
+      </Text>
+    </View>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#ff9800",
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "elevation": 5,
+          "opacity": 1,
+          "paddingBottom": 15,
+          "paddingLeft": 30,
+          "paddingRight": 30,
+          "paddingTop": 15,
+          "shadowColor": "#000",
+          "shadowOffset": {
+            "height": 2,
+            "width": 0,
+          },
+          "shadowOpacity": 0.25,
+          "shadowRadius": 3.84,
+          "width": 250,
+        }
+      }
+      testID="show-fiat-list-button"
+    >
+      <Text
+        style={
+          {
+            "color": "white",
+            "fontSize": 16,
+            "fontWeight": "600",
+          }
+        }
+      >
+        Show Fiat List
+      </Text>
+    </View>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#9c27b0",
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "elevation": 5,
+          "opacity": 1,
+          "paddingBottom": 15,
+          "paddingLeft": 30,
+          "paddingRight": 30,
+          "paddingTop": 15,
+          "shadowColor": "#000",
+          "shadowOffset": {
+            "height": 2,
+            "width": 0,
+          },
+          "shadowOpacity": 0.25,
+          "shadowRadius": 3.84,
+          "width": 250,
+        }
+      }
+      testID="show-purchasable-list-button"
+    >
+      <Text
+        style={
+          {
+            "color": "white",
+            "fontSize": 16,
+            "fontWeight": "600",
+          }
+        }
+      >
+        Show Purchasable
+      </Text>
+    </View>
+  </View>
+</View>
+`;
